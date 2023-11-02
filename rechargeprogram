@@ -1,0 +1,16 @@
+package Linkcode.Data;
+
+public class NewRegister {
+	private String UserName;
+	private String Pass;
+	
+	private String Name;
+	private String Email;
+	private long PhoneNo;
+	private String Address;
+	private String City;
+	private int Pincode;
+	private String Gender;
+	public NewRegister(String userName, String pass, String name, String email,  String address,
+			String city, String gender) {
+		UserName = userName;
